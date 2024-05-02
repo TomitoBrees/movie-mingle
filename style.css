@@ -1,0 +1,42 @@
+body {
+    background-color: #5CDB95;
+    color: #05386B;
+    font-family: "Space Mono", serif ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+    margin-top: -3px;
+}
+
+.movie-card {
+    background-color: #05386B;
+    color: #8EE4AF;
+    border-radius: 10px;
+    width: 330px;
+    height: 581px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    border: transparent;
+    border-radius: 5px;
+
+    height: 50px;
+    width: 200px;
+
+    background-color: #05386B;
+    color: #EDF5E1;
+    font-size: 1.5em;
+
+    margin-top: 15px;
+}
